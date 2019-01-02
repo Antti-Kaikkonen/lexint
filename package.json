@@ -1,0 +1,33 @@
+{
+  "name": "lexint",
+  "version": "1.0.0",
+  "description": "encode unsigned integers as variable length lexicographically sortable byte buffers",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.1.6",
+    "@types/node": "^10.12.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antti-Kaikkonen/lexint.git"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "lexicographic",
+    "lexicographic-integer",
+    "encoding",
+    "decoding",
+    "integer"
+  ],
+  "author": "Antti-Kaikkonen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Antti-Kaikkonen/lexint/issues"
+  },
+  "homepage": "https://github.com/Antti-Kaikkonen/lexint#readme"
+}
